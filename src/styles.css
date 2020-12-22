@@ -2,3 +2,38 @@
   font-family: sans-serif;
   text-align: center;
 }
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.cal {
+  border: 10px solid gray;
+  margin: 10px;
+  padding: 10px;
+}
+h1 {
+  text-align: center;
+}
+.display {
+  font-size: 20px;
+  text-align: right;
+  height: 50px;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+button {
+  height: 40px;
+  width: 70px;
+  align-items: center;
+}
+button:hover {
+  background-color: black;
+  color: white;
+}
+.zero {
+  width: 140px;
+}
